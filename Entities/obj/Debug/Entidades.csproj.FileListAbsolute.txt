@@ -1,0 +1,5 @@
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\Entities\bin\Debug\Entities.dll
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\Entities\bin\Debug\Entities.pdb
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\Entities\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\Entities\obj\Debug\Entities.dll
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\Entities\obj\Debug\Entities.pdb

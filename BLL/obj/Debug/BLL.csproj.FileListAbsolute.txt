@@ -1,0 +1,33 @@
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\BLL.dll.config
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\BLL.dll
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\BLL.pdb
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\DAL.dll
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\Entities.dll
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\EntityFramework.dll
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\DAL.pdb
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\DAL.dll.config
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\Entities.pdb
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\EntityFramework.xml
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\obj\Debug\BLL.dll
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\BLL\obj\Debug\BLL.pdb
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\BLL.dll.config
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\BLL.dll
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\BLL.pdb
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\DAL.dll
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\Entities.dll
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\EntityFramework.dll
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\DAL.pdb
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\DAL.dll.config
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\Entities.pdb
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\EntityFramework.xml
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\obj\Debug\BLL.dll
+C:\Users\lenovo pc\Downloads\PrestamosProyectoFinalA2-master\PrestamosProyectoFinalA2-master\BLL\obj\Debug\BLL.pdb
