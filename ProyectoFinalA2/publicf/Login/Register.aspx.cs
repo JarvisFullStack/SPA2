@@ -23,7 +23,7 @@ namespace ProyectoFinalA2.Register
 			Usuario usuario = LlenaClase();
 			if(usuario!=null)
 			{
-				if(!EsCorreoUnico(usuario.Correo))
+				if(!EsCorreoUnicoAdministrador(usuario.Correo))
 				{
 					Utils.ShowToastr(this, $"{usuario.Correo} ya ha sido registrado!", "Error", "error");
 					return;
@@ -47,6 +47,11 @@ namespace ProyectoFinalA2.Register
 		private bool EsCorreoUnico(string correo)
 		{
 			return BLL.GetList(x=>x.Correo == correo).Count <= 0;	
+		}
+
+		private bool EsCorreoUnicoAdministrador(string correo)
+		{
+			return BLL.GetList(x => x.Correo == correo && x.Nivel == Enums.NivelUsuario.ADMINISTRADOR).Count <= 0;
 		}
 
 		private Usuario LlenaClase()

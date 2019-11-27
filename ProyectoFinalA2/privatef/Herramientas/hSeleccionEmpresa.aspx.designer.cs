@@ -7,38 +7,38 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProyectoFinalA2.Registros
+namespace ProyectoFinalA2.privatef.Herramientas
 {
 
 
-	public partial class SeleccionEmpresa
+	public partial class hSeleccionEmpresa
 	{
 
 		/// <summary>
-		/// textboxEmail control.
+		/// LabelFecha control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox textboxEmail;
+		protected global::System.Web.UI.WebControls.Label LabelFecha;
 
 		/// <summary>
-		/// textboxPassword control.
+		/// dropdownlistEmpresas control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox textboxPassword;
+		protected global::System.Web.UI.WebControls.DropDownList dropdownlistEmpresas;
 
 		/// <summary>
-		/// LoginButton control.
+		/// buttonSeleccionrEmpresa control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button LoginButton;
+		protected global::System.Web.UI.WebControls.Button buttonSeleccionrEmpresa;
 	}
 }

@@ -75,16 +75,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="private\Consultas\ConsultaUsuarios.aspx" />
+    <Content Include="privatef\Consultas\ConsultaUsuarios.aspx" />
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
-    <Content Include="public\Login\Login.aspx" />
-    <Content Include="public\Login\Register.aspx" />
-    <Content Include="public\Login\loginstyle.css" />
-    <Content Include="private\SeleccionEmpresa.aspx" />
+    <Content Include="privatef\GlobalCss.css" />
+    <Content Include="privatef\Herramientas\hSeleccionEmpresa.aspx" />
+    <Content Include="privatef\Registros\rAccesoEmpresa.aspx" />
+    <Content Include="privatef\Registros\rClientes.aspx" />
+    <Content Include="privatef\Registros\rCobros.aspx" />
+    <Content Include="privatef\Registros\rEmpresas.aspx" />
+    <Content Include="privatef\Registros\rPrestamos.aspx" />
+    <Content Include="privatef\Registros\rUsuarios.aspx" />
+    <Content Include="publicf\Login\Login.aspx" />
+    <Content Include="publicf\Login\Register.aspx" />
+    <Content Include="publicf\Login\loginstyle.css" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
-    <Content Include="private\UserControls\ConsultaUsuariosUserControl.ascx" />
+    <Content Include="privatef\UserControls\ConsultaUsuariosUserControl.ascx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -92,7 +99,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Index.aspx" />
-    <Content Include="private\Registros\RegistroUsuarios.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\esm\popper-utils.js" />
@@ -134,39 +140,81 @@
     <Content Include="Scripts\popper-utils.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="private\Consultas\ConsultaUsuarios.aspx.cs">
+    <Compile Include="privatef\Consultas\ConsultaUsuarios.aspx.cs">
       <DependentUpon>ConsultaUsuarios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="private\Consultas\ConsultaUsuarios.aspx.designer.cs">
+    <Compile Include="privatef\Consultas\ConsultaUsuarios.aspx.designer.cs">
       <DependentUpon>ConsultaUsuarios.aspx</DependentUpon>
     </Compile>
-    <Compile Include="public\Login\Login.aspx.cs">
+    <Compile Include="privatef\Herramientas\hSeleccionEmpresa.aspx.cs">
+      <DependentUpon>hSeleccionEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privatef\Herramientas\hSeleccionEmpresa.aspx.designer.cs">
+      <DependentUpon>hSeleccionEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="privatef\Registros\rAccesoEmpresa.aspx.cs">
+      <DependentUpon>rAccesoEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privatef\Registros\rAccesoEmpresa.aspx.designer.cs">
+      <DependentUpon>rAccesoEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="privatef\Registros\rClientes.aspx.cs">
+      <DependentUpon>rClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privatef\Registros\rClientes.aspx.designer.cs">
+      <DependentUpon>rClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="privatef\Registros\rCobros.aspx.cs">
+      <DependentUpon>rCobros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privatef\Registros\rCobros.aspx.designer.cs">
+      <DependentUpon>rCobros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="privatef\Registros\rEmpresas.aspx.cs">
+      <DependentUpon>rEmpresas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privatef\Registros\rEmpresas.aspx.designer.cs">
+      <DependentUpon>rEmpresas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="privatef\Registros\rPrestamos.aspx.cs">
+      <DependentUpon>rPrestamos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privatef\Registros\rPrestamos.aspx.designer.cs">
+      <DependentUpon>rPrestamos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="privatef\Registros\rUsuarios.aspx.cs">
+      <DependentUpon>rUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privatef\Registros\rUsuarios.aspx.designer.cs">
+      <DependentUpon>rUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicf\Login\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="public\Login\Login.aspx.designer.cs">
+    <Compile Include="publicf\Login\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="public\Login\Register.aspx.cs">
+    <Compile Include="publicf\Login\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="public\Login\Register.aspx.designer.cs">
+    <Compile Include="publicf\Login\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="private\SeleccionEmpresa.aspx.cs">
-      <DependentUpon>SeleccionEmpresa.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="private\SeleccionEmpresa.aspx.designer.cs">
-      <DependentUpon>SeleccionEmpresa.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="private\UserControls\ConsultaUsuariosUserControl.ascx.cs">
+    <Compile Include="privatef\UserControls\ConsultaUsuariosUserControl.ascx.cs">
       <DependentUpon>ConsultaUsuariosUserControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="private\UserControls\ConsultaUsuariosUserControl.ascx.designer.cs">
+    <Compile Include="privatef\UserControls\ConsultaUsuariosUserControl.ascx.designer.cs">
       <DependentUpon>ConsultaUsuariosUserControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
@@ -185,13 +233,6 @@
     </Compile>
     <Compile Include="MainSite.Master.designer.cs">
       <DependentUpon>MainSite.Master</DependentUpon>
-    </Compile>
-    <Compile Include="private\Registros\RegistroUsuarios.aspx.cs">
-      <DependentUpon>RegistroUsuarios.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="private\Registros\RegistroUsuarios.aspx.designer.cs">
-      <DependentUpon>RegistroUsuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils.cs" />

@@ -7,147 +7,102 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProyectoFinalA2.Mantenimientos
+namespace ProyectoFinalA2.privatef.Registros
 {
 
 
-	public partial class RegistroUsuarios
+	public partial class rCobros
 	{
 
 		/// <summary>
-		/// IdTextBox control.
+		/// LabelFecha control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox IdTextBox;
+		protected global::System.Web.UI.WebControls.Label LabelFecha;
 
 		/// <summary>
-		/// BusquedaButton control.
+		/// formRegistro control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.LinkButton BusquedaButton;
+		protected global::System.Web.UI.WebControls.Panel formRegistro;
 
 		/// <summary>
-		/// Header control.
+		/// textboxId control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::ProyectoFinalA2.Consultas.ConsultaUsuariosUserControl Header;
+		protected global::System.Web.UI.WebControls.TextBox textboxId;
 
 		/// <summary>
-		/// NombresTextBox control.
+		/// dropdownlistClientes control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox NombresTextBox;
+		protected global::System.Web.UI.WebControls.DropDownList dropdownlistClientes;
 
 		/// <summary>
-		/// RFVNames control.
+		/// dropdownlistPrestamos control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.RequiredFieldValidator RFVNames;
+		protected global::System.Web.UI.WebControls.DropDownList dropdownlistPrestamos;
 
 		/// <summary>
-		/// ApellidosTextBox control.
+		/// GridViewCobrosRealizados control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox ApellidosTextBox;
+		protected global::System.Web.UI.WebControls.GridView GridViewCobrosRealizados;
 
 		/// <summary>
-		/// RequiredFieldValidator1 control.
+		/// textboxMontoCobro control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+		protected global::System.Web.UI.WebControls.TextBox textboxMontoCobro;
 
 		/// <summary>
-		/// CorreoTextBox control.
+		/// textboxCobroCapital control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox CorreoTextBox;
+		protected global::System.Web.UI.WebControls.TextBox textboxCobroCapital;
 
 		/// <summary>
-		/// RequiredFieldValidator2 control.
+		/// textboxInteres control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+		protected global::System.Web.UI.WebControls.TextBox textboxInteres;
 
 		/// <summary>
-		/// PasswordLabel control.
+		/// textboxMora control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label PasswordLabel;
-
-		/// <summary>
-		/// PasswordTextBox control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox PasswordTextBox;
-
-		/// <summary>
-		/// RequiredFieldValidator3 control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
-
-		/// <summary>
-		/// TipoUsuarioDropDownList control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.DropDownList TipoUsuarioDropDownList;
-
-		/// <summary>
-		/// SumaryValidation control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.ValidationSummary SumaryValidation;
-
-		/// <summary>
-		/// ErrorLabel control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label ErrorLabel;
+		protected global::System.Web.UI.WebControls.TextBox textboxMora;
 
 		/// <summary>
 		/// NuevoButton control.
@@ -159,13 +114,13 @@ namespace ProyectoFinalA2.Mantenimientos
 		protected global::System.Web.UI.WebControls.Button NuevoButton;
 
 		/// <summary>
-		/// GuadarButton control.
+		/// GuardarButton control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button GuadarButton;
+		protected global::System.Web.UI.WebControls.Button GuardarButton;
 
 		/// <summary>
 		/// EliminarButton control.

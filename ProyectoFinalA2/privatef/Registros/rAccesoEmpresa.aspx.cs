@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace ProyectoFinalA2.Registros
 {
-	public partial class SeleccionEmpresa : System.Web.UI.Page
+	public partial class rAccesoEmpresa : System.Web.UI.Page
+{
+	protected void Page_Load(object sender, EventArgs e)
 	{
-		protected void Page_Load(object sender, EventArgs e)
-		{
-
-		}
+			Utils.VerificarAccesoEmpresa(this);
 	}
+}
 }

@@ -11,7 +11,7 @@ namespace ProyectoFinalA2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+			Utils.VerificarAccesoEmpresa(this);
         }
     }
 }

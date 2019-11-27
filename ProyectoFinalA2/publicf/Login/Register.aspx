@@ -38,29 +38,29 @@
             <form ID="formRegistro" runat="server" class="form-signin">       
 
               <div class="form-label-group">
-                <asp:TextBox runat="server" type="email" id="textboxEmail" class="form-control" placeholder="Email address" required />	
+                <asp:TextBox runat="server" type="email" id="textboxEmail" class="form-control" MaxLength="150" placeholder="Email address" required />	
                 <label for="textboxEmail">Email address</label>
               </div>
 
 			<div class="form-label-group">
-                <asp:TextBox runat="server" type="text" id="textboxNombre" class="form-control" placeholder="Nombres" required />
+                <asp:TextBox runat="server" type="text" id="textboxNombre" class="form-control" MaxLength="60" placeholder="Nombres" required />
                 <label for="textboxNombre">Nombres</label>
              </div>
 
 			<div class="form-label-group">
-                <asp:TextBox runat="server" type="text" id="textboxApellido" class="form-control" placeholder="Apellidos" required />
+                <asp:TextBox runat="server" type="text" id="textboxApellido" class="form-control" MaxLength="60" placeholder="Apellidos" required />
                 <label for="textboxApellido">Apellidos</label>
               </div>
               
               <hr />
 
               <div class="form-label-group">
-                <asp:TextBox runat="server" type="password" id="textboxPassword" class="form-control" placeholder="Password" required />
+                <asp:TextBox runat="server" type="password" id="textboxPassword" class="form-control" MaxLength="300" placeholder="Password" required />
                 <label for="textboxPassword">Password</label>
               </div>
               
               <div class="form-label-group">
-                <asp:TextBox runat="server" type="password" id="textboxConfirmPassword" class="form-control" placeholder="Password" required />
+                <asp:TextBox runat="server" type="password" id="textboxConfirmPassword" class="form-control" MaxLength="300" placeholder="Password" required />
                 <label for="textboxConfirmPassword">Confirm password</label>
               </div>
 

@@ -8,6 +8,8 @@ namespace Entities
     {
         [Key]
         public int Id_Usuario { get; set; }
+		[Required]
+		public int Id_Empresa { get; set; }
 		[MaxLength(60)]
 		[Required]
         public string Nombre { get; set; }
@@ -21,7 +23,7 @@ namespace Entities
 		[Required]
 		public string Password { get; set; }
         public Enums.NivelUsuario Nivel { get; set; }		
-		public bool Activo { get; set; }
+		public bool Activo { get; set; }	
 		public DateTime Fecha { get; set; }
 
         public Usuario()

@@ -16,23 +16,34 @@ namespace ProyectoFinalA2.Login
 		private RepositorioBase<Usuario> BLL = new RepositorioBase<Usuario>();
 		protected void Page_Load(object sender, EventArgs e)
 		{
+			
+		
+			if (!IsPostBack)
+			{
+				Utils.LimpiarCookies(this);
+				//Response.Cookies["EmpresaId"].Value = null;
+				
 
+			}
 		}
 
 		protected void LoginButton_Click(object sender, EventArgs e)
-		{
+		{	
 			Usuario usuario = new Usuario();
 			Expression<Func<Usuario, bool>> filtrar = t => t.Correo.Equals(textboxEmail.Text) && t.Password.Equals(textboxPassword.Text);
-
-			if(BLL.GetList(filtrar).Count() > 0)
+			List<Usuario> lista = BLL.GetList(filtrar);
+			if (lista.Count > 0)
 			{
-				
-				FormsAuthentication.RedirectFromLoginPage(usuario.Correo, true);
-				Response.Redirect("~/Index.aspx");
+				usuario = lista.FirstOrDefault();				
+				Utils.LlenarCookies(this, usuario);
+				//FormsAuthentication.RedirectFromLoginPage(usuario.Correo, false);
+				Response.Redirect("~/privatef/Herramientas/hSeleccionEmpresa.aspx");
 			} else
 			{
 				Utils.ShowToastr(this, "Credenciales incorrectos", "Credenciales Incorrectos", "error");				
 			}
 		}
+
+		
 	}
 }
